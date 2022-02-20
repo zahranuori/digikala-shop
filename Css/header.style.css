@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+}
+.header__orginal {
+  display: flex;
+  flex-direction: row;
+}
+.header__logo {
+  flex: 1 1 1rem;
+}
+.header__input {
+  width: 40%;
+  /* line-height: 0.5rem; */
+  height: 1.2rem;
+  margin-right: 1%;
+  padding: 1rem;
+  background-color: rgb(235, 235, 235);
+  border-radius: 0.6rem;
+  border: none;
+  font-family: "IRANSans";
+  flex: 9 4 16rem;
+}
+.header__login {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0 2rem 0 1rem;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  font-size: 1rem;
+  flex: 1 1 1rem;
+  height: 0.5rem;
+  color: rgb(68, 67, 67);
+  line-height: 0.7rem;
+}
+.header__buy {
+  border-right: 2px solid #ccc;
+  margin: 0.4rem 0 1rem 0;
+  padding-right: 1rem;
+}
