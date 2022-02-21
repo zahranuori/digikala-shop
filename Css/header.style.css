@@ -28,14 +28,75 @@
   margin: 0 2rem 0 1rem;
   border-radius: 0.6rem;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
   flex: 1 1 1rem;
   height: 0.5rem;
   color: rgb(68, 67, 67);
-  line-height: 0.7rem;
+  line-height: 0.2rem;
 }
 .header__buy {
   border-right: 2px solid #ccc;
   margin: 0.4rem 0 1rem 0;
   padding-right: 1rem;
+}
+.header__menu {
+  margin-top: 1rem;
+  display: flex;
+}
+.header__menu-icon-hamburger {
+  width: 1rem;
+  height: 1rem;
+  filter: invert(27%) sepia(100%) saturate(36%) hue-rotate(22deg)
+    brightness(87%) contrast(108%);
+}
+.header__menu-dropdown {
+}
+ul {
+  list-style-type: none;
+  margin: -0.3rem 0.5rem;
+  padding: 0;
+  overflow: hidden;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* .dropdown {
+  width: 60vw;
+  height: 60vh;
+} */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.header__menu-bestsellers {
+  flex: 5 1 1rem;
+}
+.menu-item__icons {
+  width: 1rem;
+  height: 1rem;
+  padding-left: 0.3rem;
+}
+.menu-item__text {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+ul .header-location {
+}
+.header__menu-off {
 }

@@ -1,4 +1,6 @@
 body {
   direction: rtl;
   font-family: "IRANSans";
+  overflow-x: hidden;
+  margin: 1rem 0 0 0 ;
 }
