@@ -124,14 +124,20 @@
 }
 /* banner 2tae */
 .banner-two {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .banner-two__image {
-  width: 40%;
+  width: 45%;
   border-radius: 1rem;
-  margin: 4rem 0.5rem;
+  margin: 2rem 0.5rem;
+}
+.banner-two-flex {
+  width: 45%;
+  border-radius: 1rem;
+  margin: 2rem 0.5rem;
 }
 /* <!-- Suggested by Digikala  --> */
 .suggested {
@@ -140,6 +146,8 @@
   margin: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+  /* border: 1px solid rgb(231, 228, 228); */
+  border-radius: 1rem;
 }
 .suggested__item {
   display: flex;
@@ -171,4 +179,80 @@
 .suggested__text {
   font-size: 0.8rem;
   margin: 1rem 0;
+}
+/* <!-- pouplar brands --> */
+.pouplar-brands {
+  margin: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(231, 228, 228);
+  border-radius: 1rem;
+}
+.pouplar-brands__title {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  justify-content: center;
+}
+.pouplar-brands__title-icon {
+  width: 24px;
+  height: 24px;
+
+  fill: var(--color-icon-rating-0-2);
+}
+.pouplar-brands__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pouplar-brands__title-image {
+  /* border-left: 1px solid grey; */
+  margin: 1.5rem;
+  padding: 0 1.3rem;
+}
+.pouplar-brands__image {
+  width: 7rem;
+}
+/* box 4 products */
+.box-four-products {
+  border: 1px solid rgb(172, 46, 46);
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(231, 228, 228);
+  border-radius: 1rem;
+}
+.box-four-products__images {
+  display: flex;
+  /* width: 21rem; */
+  padding: 0.5rem;
+  flex-wrap: wrap;
+}
+.box-four-products__image {
+  width: 34%;
+}
+.box-four-products__mobile {
+  border-left: 1px solid #ccc;
+  margin-right: 1rem;
+}
+.box-four-products__bags-cover {
+  border-left: 1px solid #ccc;
+  margin-right: 1rem;
+}
+.box-four-products__headphone {
+  border-left: 1px solid #ccc;
+  margin-right: 1rem;
+}
+
+.box-four-products__watch {
+  border-left: 1px solid #ccc;
+  margin-right: 1rem;
+}
+.box-four-products__text-show {
+  text-align: center;
 }
