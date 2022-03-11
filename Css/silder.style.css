@@ -228,13 +228,14 @@
   border-radius: 1rem;
 }
 .box-four-products__images {
-  display: flex;
+  /* display: flex; */
   /* width: 21rem; */
   padding: 0.5rem;
   flex-wrap: wrap;
 }
 .box-four-products__image {
-  width: 34%;
+  width: 37%;
+  padding: 0.5rem;
 }
 .box-four-products__mobile {
   border-left: 1px solid #ccc;
@@ -250,7 +251,6 @@
 }
 
 .box-four-products__watch {
-  border-left: 1px solid #ccc;
   margin-right: 1rem;
 }
 .box-four-products__text-show {
