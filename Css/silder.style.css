@@ -295,6 +295,14 @@
   width: 6rem;
   padding: 1rem;
 }
+.digiplus-badge__gif-price {
+  margin-top: -2.5rem;
+  background: #ffffff;
+  font-size: 0.7rem;
+  position: absolute;
+  color: rgb(140, 2, 153);
+  border-radius: 0.5rem;
+}
 .digiplus-badge__gif-top {
   display: flex;
   justify-content: space-between;
@@ -313,12 +321,39 @@
 }
 /* banner */
 .banner {
-  background: #026288;
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+    radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
   border-radius: 1rem;
-  display: flex;
   margin: 1rem;
-  padding: 1.5rem;
-  text-align: start;
-  justify-content: center;
-  align-items: center;
+  padding: 0.7rem 2rem 0.7rem 0.7rem;
+}
+.banner-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-logo-img {
+}
+.banner-item {
+  display: flex;
+}
+.banner-logo__item-lucky {
+  display: flex;
+  background: #ffffff;
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 0.3rem 1.3rem 0.3rem 0.3rem;
+}
+.banner-logo__lucky {
+  height: 4.3rem;
+}
+.banner-logo__item-missions {
+  display: flex;
+  background: #ffffff;
+  margin: 0 0.4rem;
+  padding: 0.3rem 1.3rem 0.3rem 0.3rem;
+}
+.banner-logo__item-awards {
+  display: flex;
+  background: #ffffff;
+  border-radius: 0.5rem 0 0 0.5rem;
+  padding: 0.3rem 1.3rem 0.3rem 0.3rem;
 }
