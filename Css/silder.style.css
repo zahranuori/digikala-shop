@@ -357,3 +357,50 @@
   border-radius: 0.5rem 0 0 0.5rem;
   padding: 0.3rem 1.3rem 0.3rem 0.3rem;
 }
+/* very buy digikala products */
+
+/* banner final */
+.banner-final {
+  margin: 1rem;
+}
+.banner-final__image {
+  border-radius: 0.5rem;
+  width: 100%;
+
+  align-items: center;
+}
+/* reading */
+.reading {
+  /* display: flex; */
+  margin: 0 1rem;
+}
+.reading-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.reading-text {
+  margin: 0;
+}
+.reading__link {
+  color: rgb(20, 169, 189);
+}
+.reading-card {
+  display: flex;
+  justify-content: space-between;
+}
+.reading-card__link {
+  width: 20%;
+  border-radius: 0.6rem;
+  border: 1px solid gray;
+  margin: 0 0 1rem 0;
+}
+.reading-card__image {
+  width: 100%;
+  border-radius: 0.6rem 0.6rem 0 0;
+}
+.reading-card__text {
+  font-size: 0.7rem;
+  padding: 0 1rem;
+  line-height: 1.7rem;
+}
